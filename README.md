@@ -63,8 +63,8 @@ module.exports = {
   <a href="https://shardus.com/" target="_blank">
     <img src="https://shardus.com/assets/img/logo.svg" height="100" width="100">
   </a>
-  <h1>
+  <span style="font-size:40px">
     Shardus
-  </h1>
+  <span>
 </div> 
 
