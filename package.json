@@ -1,0 +1,22 @@
+{
+  "name": "bytenode-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Compiles JS files to V8 bytecode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/shardus/bytenode-webpack-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/shardus/bytenode-webpack-plugin/issues"
+  },
+  "homepage": "https://gitlab.com/shardus/bytenode-webpack-plugin#readme",
+  "dependencies": {
+    "bytenode": "^1.1.1"
+  }
+}
