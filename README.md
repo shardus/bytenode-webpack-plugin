@@ -17,7 +17,7 @@ Essentially converts raw `.js` files in your output into compiled `.jsc` files.
 
 ## Usage
 
-```JS
+```javascript
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
 
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
 
 Example:
 
-```JS
+```javascript
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
 
 module.exports = {
@@ -63,8 +63,8 @@ module.exports = {
   <a href="https://shardus.com/" target="_blank">
     <img src="https://shardus.com/assets/img/logo.svg" height="100" width="100">
   </a>
-  <span style="font-size:40px;">
+  <h1>
     Shardus
-  </span>
+  </h1>
 </div> 
 
