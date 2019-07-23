@@ -1,8 +1,7 @@
 {
   "name": "bytenode-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compiles JS files to V8 bytecode.",
-  "keywords": ["compile", "bytecode", "webpack", "webpack-plugin", "bytenode"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,12 @@
   "homepage": "https://gitlab.com/shardus/bytenode-webpack-plugin#readme",
   "dependencies": {
     "bytenode": "^1.1.1"
-  }
+  },
+  "keywords": [
+    "compile",
+    "bytecode",
+    "webpack",
+    "webpack-plugin",
+    "bytenode"
+  ]
 }
