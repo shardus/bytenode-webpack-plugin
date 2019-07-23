@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/shardus/bytenode-webpack-plugin.git"
   },
-  "author": "",
+    "author": "Aamir Syed <aamir@shardus.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/shardus/bytenode-webpack-plugin/issues"
