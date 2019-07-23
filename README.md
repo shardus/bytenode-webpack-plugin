@@ -38,7 +38,7 @@ module.exports = {
 |------------------|-----------|---------|----------------------------------------|
 | **`keepSource`** | `boolean` | `false` | Keep JS source files in output or not. |
 
-Example:
+Here's an example that shows how to output both `.js` and `.jsc` files:
 
 ```javascript
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
@@ -59,7 +59,7 @@ module.exports = {
 
 ---
 
-<div style="display:flex; flex-flow:row; align-items:center">
+<div style="display:flex; flex-flow:row; align-items:center;">
   <a href="https://shardus.com/" target="_blank">
     <img src="https://shardus.com/assets/img/logo.svg" height="100" width="100">
   </a>
