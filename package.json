@@ -2,6 +2,7 @@
   "name": "bytenode-webpack-plugin",
   "version": "1.0.0",
   "description": "Compiles JS files to V8 bytecode.",
+  "keywords": ["compile", "bytecode", "webpack", "webpack-plugin", "bytenode"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
