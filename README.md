@@ -34,11 +34,12 @@ module.exports = {
 
 ## Options
 
-| Name             | Type      | Default | Description                            |
-|------------------|-----------|---------|----------------------------------------|
-| **`keepSource`** | `boolean` | `false` | Keep JS source files in output or not. |
+| Name                  | Type      | Default | Description                                                    |
+|-----------------------|-----------|---------|----------------------------------------------------------------|
+| **`compileAsModule`** | `boolean` | `true`  | Allow the resulting `.jsc` file to be used as a module or not. |
+| **`keepSource`**      | `boolean` | `false` | Keep JS source files in output or not.                         |
 
-Here's an example that shows how to output both `.js` and `.jsc` files:
+To use options:
 
 ```javascript
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
@@ -51,6 +52,7 @@ module.exports = {
   },
   plugins: [
     new BytenodeWebpackPlugin({
+        compileAsModule: false,
         keepSource: true
     })
   ]
