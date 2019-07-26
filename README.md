@@ -61,12 +61,9 @@ module.exports = {
 
 ---
 
-<div style="display:flex; flex-flow:row; align-items:center;">
+<br>
+<div align="center">
   <a href="https://shardus.com/" target="_blank">
-    <img src="https://shardus.com/assets/img/logo.svg" height="100" width="100">
+    <img src="https://raw.githubusercontent.com/Shardus/shardus.github.io/master/assets/img/shardus_logo_256.png" width="100">
   </a>
-  <span style="font-size:40px">
-    Shardus
-  <span>
-</div> 
-
+</div>
