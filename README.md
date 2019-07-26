@@ -18,6 +18,8 @@ Essentially converts raw `.js` files in your output into compiled `.jsc` files.
 ## Usage
 
 ```javascript
+// webpack.config.js
+
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
 
 module.exports = {
@@ -42,6 +44,8 @@ module.exports = {
 To use options:
 
 ```javascript
+// webpack.config.js
+
 const BytenodeWebpackPlugin = require('bytenode-webpack-plugin')
 
 module.exports = {
