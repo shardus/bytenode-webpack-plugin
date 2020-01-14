@@ -1,6 +1,6 @@
 {
   "name": "bytenode-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Compiles JS files to V8 bytecode.",
   "main": "index.js",
   "scripts": {
