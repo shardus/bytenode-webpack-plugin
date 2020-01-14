@@ -18,7 +18,7 @@ class BytenodeWebpackPlugin {
       for (const filename in compilation.assets) {
         if (/\.js$/.test(filename)) {
           // Compile them to v8 bytecode and emit them as .jsc files
-          let source = compilation.assets[filename]._value
+          let source = compilation.assets[filename].source()
           if (this.options.compileAsModule) {
             source = Module.wrap(source)
           }
